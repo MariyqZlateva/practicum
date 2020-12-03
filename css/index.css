@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: center/cover no-repeat url("https://i.pinimg.com/originals/3c/47/c4/3c47c402bd846c4887a7114fb1f735df.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.layout {
+    background-color: white;
+    opacity: 0.8;
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.button-holder {
+    width: 80%;
+    flex: 0.1 0.1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    font-weight: 200;
+    font-size: 1rem;
+    border: 3px solid rgba(175, 238, 235, 0.972);
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(175, 238, 235, 0.972);
+    color: rgba(7, 172, 248, 0.986);
+}
+button:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em rgba(4, 145, 240, 0.972);
+    transform: translateY(-0.10em);
+    cursor: pointer;
+}
+
+.list-holder {
+    width: 80%;
+    flex: 0.7 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    overflow: auto;
+    border-radius: 30px;
+}
+#contactsListHolder {
+    background-color: rgba(175, 238, 235, 0.972);
+}
+
+.contact-holder {
+    width: 100%;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.contact-header {
+    width: 20%;
+    background-color: lightcyan;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 2;
+}
+
+.contact {
+    width: 20%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#contactForm {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+}
+#contactForm input {
+    width: 100%;
+    line-height: 2;
+    font-size: 1rem ;
+    text-align: center;
+}
